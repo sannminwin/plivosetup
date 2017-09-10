@@ -4,7 +4,6 @@
 # and Debian based distros (Debian 5.0 , Ubuntu 10.04 and above)
 # Copyright (c) 2011 Plivo Team. See LICENSE for details.
 
-
 PLIVO_GIT_REPO=git://github.com/plivo/plivoframework.git
 PLIVO_SETUP_SCRIPT=https://raw.github.com/plivo/plivoframework/master/scripts/ez_setup.py
 
@@ -185,7 +184,7 @@ source $REAL_PATH/bin/activate
 
 # force installation of gevent 1.03a
 pip uninstall gevent
-pip install -Iv pip install -Iv https://pypi.python.org/packages/14/83/37f998c61406cb765264db8b68a24296e1f40d05a57b18dbfafa0883b5bd/gevent-0.13.6.tar.gz
+pip install -Iv pip install -Iv 
 pip install -e git+https://github.com/plivo/plivo-python.git#egg=plivo
 
 
