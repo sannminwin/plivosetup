@@ -3,8 +3,6 @@
 # FreeSWITCH Installation script for CentOS 5.5/5.6
 # and Debian based distros (Debian 5.0 , Ubuntu 10.04 and above)
 # Copyright (c) 2011 Plivo Team. See LICENSE for details.
-
-
 FS_CONF_PATH=https://github.com/plivo/plivoframework/raw/master/freeswitch
 FS_GIT_REPO=https://freeswitch.org/stash/scm/fs/freeswitch.git
 FS_INSTALLED_PATH=/usr/local/freeswitch
